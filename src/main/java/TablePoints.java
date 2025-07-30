@@ -60,5 +60,6 @@ public class TablePoints {
                 System.out.println("Nieprawidłowa wartość!");
             }
         }
+        System.out.println("Ilość możliwych do zdobycia punktów wynosi:"+availablePoints);
     }
 }
