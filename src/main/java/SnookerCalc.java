@@ -8,5 +8,9 @@ public class SnookerCalc {
         TablePoints tablePoints = new TablePoints(reds);
         tablePoints.wyswietlBile();
         tablePoints.wyswietlMozliwePunkty();
+        FrameResult frameResult = new FrameResult(0, 0);
+        frameResult.displayFrameResult();
+        System.out.println(frameResult.determineWinner());
+        frameResult.displayFullResult();
     }
 }
