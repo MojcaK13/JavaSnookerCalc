@@ -6,9 +6,17 @@ public class TablePoints {
     public TablePoints(int myReds) {
        reds = myReds;
     }
+    // The `wyswietlBile()` method in the `TablePoints` class is responsible for displaying the number
+    // of red balls on the table. It achieves this by printing out a message that includes the value of
+    // the `reds` instance variable, which represents the number of red balls. The message is printed
+    // in the format "Ilość czerwonych bil na stole: [reds]".
     public void wyswietlBile() {
         System.out.println("Ilość czerwonych bil na stole:"+reds);
     }
+    /**
+     * The function calculates and displays the possible points that can be scored in a snooker game
+     * based on the number of red balls and colored balls on the table.
+     */
     public void wyswietlMozliwePunkty() {
         Scanner sc = new Scanner(System.in);
         if (reds == 15){
